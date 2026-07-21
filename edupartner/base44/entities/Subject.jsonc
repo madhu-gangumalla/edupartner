@@ -1,0 +1,43 @@
+{
+  "name": "Subject",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Subject name"
+    },
+    "description": {
+      "type": "string",
+      "description": "Brief description of the subject"
+    },
+    "icon": {
+      "type": "string",
+      "description": "Emoji icon for the subject"
+    },
+    "color": {
+      "type": "string",
+      "description": "Color theme for the subject"
+    }
+  },
+  "required": [
+    "name"
+  ],
+  "rls": {
+    "create": {
+      "user_condition": {
+        "role": "admin"
+      }
+    },
+    "read": {},
+    "update": {
+      "user_condition": {
+        "role": "admin"
+      }
+    },
+    "delete": {
+      "user_condition": {
+        "role": "admin"
+      }
+    }
+  }
+}
