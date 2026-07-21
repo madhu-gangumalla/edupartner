@@ -1,39 +1,135 @@
-**Welcome to your Base44 project** 
+# 🎓 EduPartner
 
-**About**
+EduPartner is an AI-powered learning platform designed to help students study smarter. It provides an interactive and personalized learning experience with AI assistance, quizzes, study tools, and educational resources—all in one place.
 
-View and Edit  your app on [Base44.com](http://Base44.com) 
+## ✨ Features
 
-This project contains everything you need to run your app locally.
+- 🤖 AI Study Assistant
+- 📚 Smart Learning Resources
+- 📝 AI Quiz Generator
+- ❓ Doubt Solving
+- 📖 Subject-wise Study Materials
+- 📊 Learning Progress Tracking
+- 🌙 Modern Responsive UI
+- ⚡ Fast and User-Friendly Experience
 
-**Edit the code in your local development environment**
+## 🛠️ Tech Stack
 
-Any change pushed to the repo will also be reflected in the Base44 Builder.
+### Frontend
+- React.js
+- Vite
+- JavaScript (ES6+)
+- HTML5
+- CSS3
 
-**Prerequisites:** 
+### Backend
+- Base44 Backend
+- REST APIs
 
-1. Clone the repository using the project's Git URL 
-2. Navigate to the project directory
-3. Install dependencies: `npm install`
-4. Create an `.env.local` file and set the right environment variables
+### AI & Integrations
+- Generative AI
+- AI Chat Assistant
+
+## 📁 Project Structure
 
 ```
-VITE_BASE44_APP_ID=your_app_id
-VITE_BASE44_APP_BASE_URL=your_backend_url
+src/
+├── components/
+├── pages/
+├── hooks/
+├── services/
+├── assets/
+├── styles/
+└── App.jsx
 
-e.g.
-VITE_BASE44_APP_ID=cbef744a8545c389ef439ea6
-VITE_BASE44_APP_BASE_URL=https://my-to-do-list-81bfaad7.base44.app
+public/
+package.json
+vite.config.js
 ```
 
-Run the app: `npm run dev`
+## 🚀 Getting Started
 
-**Publish your changes**
+### Prerequisites
 
-Open [Base44.com](http://Base44.com) and click on Publish.
+- Node.js (v18 or later)
+- npm
 
-**Docs & Support**
+### Installation
 
-Documentation: [https://docs.base44.com/Integrations/Using-GitHub](https://docs.base44.com/Integrations/Using-GitHub)
+```bash
+git clone https://github.com/yourusername/edupartner.git
+```
 
-Support: [https://app.base44.com/support](https://app.base44.com/support)
+```bash
+cd edupartner
+```
+
+```bash
+npm install
+```
+
+### Environment Variables
+
+Create a `.env.local` file and configure the required environment variables.
+
+Example:
+
+```env
+VITE_BASE44_APP_ID=YOUR_APP_ID
+VITE_BASE44_APP_BASE_URL=YOUR_BASE44_URL
+```
+
+## ▶️ Run Locally
+
+```bash
+npm run dev
+```
+
+The application will start on:
+
+```
+http://localhost:5173
+```
+
+## 📦 Build for Production
+
+```bash
+npm run build
+```
+
+## 📱 Responsive Design
+
+EduPartner is optimized for:
+
+- Desktop
+- Laptop
+- Tablet
+- Mobile Devices
+
+## 🎯 Vision
+
+Our mission is to make quality education accessible through AI-powered learning tools that help students learn faster, understand concepts better, and achieve their academic goals
+
+## 🤝 Contributing
+
+Contributions, suggestions, and feedback are welcome.
+
+1. Fork the repository
+2. Create a feature branch
+3. Commit your changes
+4. Open a Pull Request
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+## 👨‍💻 Author
+
+**Madhu Sandeep**
+
+- GitHub: https://github.com/madhu-gangumalla
+- LinkedIn: https://linkedin.com/in/madhu-sandeep-gangumalla
+
+---
+
+⭐ If you found this project helpful, consider giving it a star on GitHub!
